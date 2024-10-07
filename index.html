@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WAF Audit</title>
+    <title>FinOps Audit</title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
     </nav>
 
     <div class="image-block">
-        <img src="assets/img1.png" alt="WAF-audit">
+        <img src="assets/img1.png" alt="FinOps-audit">   //chnages 
         <div class="image-text">
             <p>WAF Audit</p>
         </div>
@@ -37,10 +37,10 @@
     <div class="content-block">
         <div class="text-block">
             <p>
-              Unlock the Power of Seamless DevOps Excellence with Our Well-Architected Framework Audit! 
-              Dive into a world where every aspect of your development and operations pipeline is meticulously 
-              examined and optimized for peak performance. Elevate your DevOps game with precision, efficiency, and innovation.
-               Let our audit be the catalyst for your digital success!            </p>
+              Unlock the Power of Seamless FinOps Excellence with Our Well-Architected Framework Audit! 
+              Dive into a world where every aspect of your cloud financial operations is meticulously examined and 
+              optimized for cost efficiency and performance. Elevate your cloud cost management with precision,transparency, and innovation.
+              Let our audit be the catalyst for your financial success in the cloud!            </p>
           
         </div>
         <div class="image-block-audit">
@@ -60,40 +60,40 @@
 
       <div class="pillar-container">
         <div class="pillar" onclick="jumpToPillar(1)">
-          Operational Exellence <span class="question-indicator" id="questionIndicator1"
+          Foundational <span class="question-indicator" id="questionIndicator1"
             >0</span
           >
         </div>
   
         <div class="pillar" onclick="jumpToPillar(2)">
-          Security<span class="question-indicator" id="questionIndicator2"
+          Cultural<span class="question-indicator" id="questionIndicator2"
             >0</span
           >
         </div>
   
         <div class="pillar" onclick="jumpToPillar(3)">
-          Sustainability<span class="question-indicator" id="questionIndicator3"
+          Operational Excellence<span class="question-indicator" id="questionIndicator3"
             >0</span
           >
         </div>
   
         <div class="pillar" onclick="jumpToPillar(4)">
-          Cost Optmization<span class="question-indicator" id="questionIndicator4"
+          Financial Management <span class="question-indicator" id="questionIndicator4"
             >0</span
           >
         </div>
   
         <div class="pillar" onclick="jumpToPillar(5)">
-          Realiability<span class="question-indicator" id="questionIndicator5"
+          Cost Optimization<span class="question-indicator" id="questionIndicator5"
             >0</span
           >
         </div>
   
-        <div class="pillar" onclick="jumpToPillar(6)">
-          Performance Efficiency<span class="question-indicator" id="questionIndicator6"
+        <!-- <div class="pillar" onclick="jumpToPillar(6)">
+          Performance Efficiency<span class="question-indicator" id="questionIndicator6"  // changes
             >0</span
           >
-        </div>
+        </div> -->
         <!-- Repeat for other pillars -->
       </div>
   
@@ -111,9 +111,9 @@
       <div id="quizContainer">
         <!-- Pillar 1 -->
         <div class="pillar" id="pillar1">
-          <h2>Pillar 1 : Operational Exellence</h2>
+          <h2>Pillar 1 : Foundational</h2>
           <div class="question" id="pillar1_q1">
-            <h3>How do you evaluate internal & external customer needs?</h3>
+            <h3>How aware is your organization of FinOps principles?</h3>
             <button onclick="showOptions('pillar1_q1')">Choose One</button>
             <select
               name="pillar1_q1"
@@ -123,16 +123,16 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Stakeholders meetings</option>
-              <option value="2">Workshops & documentation</option>
-              <option value="3">user-centered design</option>
-              <option value="4">SLOs & KPIs</option>
-              <option value="5">Value stream mapping & feedback loops.</option>
+              <option value="1">There is no awareness of FinOps</option>
+              <option value="2">Some team members are aware of FinOps basics</option>
+              <option value="3">The organization has a foundational understanding of FinOps</option>
+              <option value="4">FinOps principles are actively discussed at various levels</option>
+              <option value="5">FinOps awareness is embedded in the organizational culture</option>
             </select>
           </div>
   
           <div class="question" id="pillar1_q2">
-            <h3>How does your organizational culture support your business outcomes?</h3>
+            <h3>How engaged is leadership in promoting FinOps?</h3>
             <button onclick="showOptions('pillar1_q2')">Choose One</button>
             <select
               name="pillar1_q2"
@@ -142,15 +142,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Minimal Support</option>
-              <option value="2">Support Awareness</option>
-              <option value="3">Collaborative Culture</option>
-              <option value="4">Empowered Teams</option>
-              <option value="5">Continuous improvement Culture </option>
+              <option value="1">There is no executive support for FinOps</option>
+              <option value="2">Some leaders are aware but do not actively promote it</option>
+              <option value="3">Leadership encourages discussions about FinOps</option>
+              <option value="4">Leaders regularly participate in FinOps initiatives</option>
+              <option value="5">Leadership actively champions FinOps with dedicated resources</option>
             </select>
           </div>
           <div class="question" id="pillar1_q3">
-            <h3>Do Resources, Processes and procedures have identified owners?</h3>
+            <h3>Does the organization acknowledge the necessity of having FinOps?</h3>
             <button onclick="showOptions('pillar1_q3')">Choose One</button>
             <select
               name="pillar1_q3"
@@ -160,15 +160,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">ad hoc ownership</option>
-              <option value="2">Resource ownership</option>
-              <option value="3">ownership Registry & Accountability</option>
-              <option value="4">Business-value driven ownership</option>
-              <option value="5">Continuous improvement ownership</option>
+              <option value="1">No recognition of FinOps necessity</option>
+              <option value="2">Initial Awareness</option>
+              <option value="3">Acknowledgment with early implementation steps</option>
+              <option value="4">Established processes for financial operations</option>
+              <option value="5">FinOps drives strategic financial decisions</option>
             </select>
           </div>
           <div class="question" id="pillar1_q4">
-            <h3>How do you design your workload so that you can understand its state?</h3>
+            <h3>How effective are training programs on FinOps?</h3>
             <button onclick="showOptions('pillar1_q4')">Choose One</button>
             <select
               name="pillar1_q4"
@@ -178,15 +178,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Limited Monitoring</option>
-              <option value="2">Basic Metrics and Logging</option>
-              <option value="3">Metrics, Logs, and Tracing</option>
-              <option value="4">Real-time Monitoring and Alerts</option>
-              <option value="5">AI/ML-Powered Observability</option>
+              <option value="1">No training programs exist for FinOps</option>
+              <option value="2">Basic training sessions are offered occasionally</option>
+              <option value="3">Training programs exist but lack depth</option>
+              <option value="4">Regular, structured training sessions are conducted</option>
+              <option value="5">Training is comprehensive and includes hands-on workshops</option>
             </select>
           </div>
           <div class="question" id="pillar1_q5">
-            <h3>How do you reduce defects, ease remediation, and improve flow into production?</h3>
+            <h3>How effectively is technology leveraged in FinOps?</h3>
             <button onclick="showOptions('pillar1_q5')">Choose One</button>
             <select
               name="pillar1_q5"
@@ -196,11 +196,11 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Limited Quality Assurance</option>
-              <option value="2">Basic Quality Checks</option>
-              <option value="3">Continuous Integration</option>
-              <option value="4">Continuous Delivery</option>
-              <option value="5">Continuous Improvement and DevSecOps</option>
+              <option value="1">No technology is used for FinOps processes</option>
+              <option value="2">Some tools are used but lack integration</option>
+              <option value="3">Basic technology solutions support FinOps</option>
+              <option value="4">Advanced tools are integrated into FinOps workflows</option>
+              <option value="5">Technology is fully automated and continuously improved</option>
             </select>
           </div>
   
@@ -216,9 +216,9 @@
   
         <!-- Pillar 2 -->
         <div class="pillar" id="pillar2" style="display: none">
-          <h2>Pillar 2: Security        </h2>
+          <h2>Pillar 2: Cultural        </h2>
           <div class="question" id="pillar2_q1">
-            <h3>How do you secure account root user and properties?</h3>
+            <h3>How well is the concept of shared financial responsibility understood?</h3>
             <button onclick="showOptions('pillar2_q1')">Choose One</button>
             <select
               name="pillar2_q1"
@@ -226,17 +226,17 @@
               style="display: none"
               onchange="enableNextButton('pillar2_indicator', 'pillar2_q1','2',value)" >
               <option value="choose">Choose an option</option>
-              <option value="0">only root user</option>
-              <option value="1">Unprotected Root User</option>
-              <option value="2">Strong Password Policy</option>
-              <option value="3">MFA for Root User</option>
-              <option value="4">Locking Away Root User Credentials</option>
-              <option value="5">Limited Usage and Role-Based Access</option>
+              <option value="0">No</option>                                                      #changes
+              <option value="1">There is no understanding of shared responsibility</option>
+              <option value="2">Some team members recognize shared responsibility</option>
+              <option value="3">The concept is acknowledged but not fully embraced</option>
+              <option value="4">Most teams understand and practice shared responsibility</option>
+              <option value="5">There is a strong culture of shared financial accountability</option>
             </select>
           </div>
   
           <div class="question" id="pillar2_q2">
-            <h3>How do you evaluate and implement new security services and features regularly?</h3>
+            <h3>Is a standardized set of terms for discussing FinOps employed throughout the organization?</h3>
             <button onclick="showOptions('pillar2_q2')">Choose One</button>
             <select
               name="pillar2_q2"
@@ -245,16 +245,16 @@
               onchange="enableNextButton('pillar2_indicator', 'pillar2_q2','2',value)"
             >
               <option value="choose">Choose an option</option>
-              <option value="0">No Regular Evaluation</option>
-              <option value="1">Reactive Adoption</option>
-              <option value="2">Occasional Manual Evaluation</option>
-              <option value="3">Quarterly Security Reviews</option>
-              <option value="4">Continuous Monitoring and Evaluation</option>
-              <option value="5">DevSecOps and Continuous Improvement</option>
+              <option value="0">No </option>                                                         #changes
+              <option value="1">No standardized terms used across teams</option>
+              <option value="2">Some terms are used, but inconsistently</option>
+              <option value="3">Standardized terms exist but are not widely adopted</option>
+              <option value="4">Most teams use standardized terms consistently</option>
+              <option value="5"> All teams universally use standardized terms effectively</option>
             </select>
           </div>
           <div class="question" id="pillar2_q3">
-            <h3>How do you automate testing and validation of security controls in pipelines?</h3>
+            <h3>How well do teams provide feedback on financial practices?</h3>
             <button onclick="showOptions('pillar2_q3')">Choose One</button>
             <select
               name="pillar2_q3"
@@ -263,16 +263,16 @@
               onchange="enableNextButton('pillar2_indicator', 'pillar2_q3','2',value)"
             >
               <option value="choose">Choose an option</option>
-              <option value="0">No security</option>
-              <option value="1">Manual Testing</option>
-              <option value="2">Scripted Testing</option>
-              <option value="3">Automated Scanning</option>
-              <option value="4">Continuous Security Validation</option>
-              <option value="5">DevSecOps and Security as Code</option>
+              <option value="0">No </option>                                                        #changes
+              <option value="1">No feedback mechanisms are in place</option>
+              <option value="2">Some informal feedback occurs</option>
+              <option value="3">Structured feedback sessions are held occasionally</option>
+              <option value="4">Regular feedback sessions provide actionable insights</option>
+              <option value="5">Continuous feedback is embedded in the financial process</option>
             </select>
           </div>
           <div class="question" id="pillar2_q4">
-            <h3>How do you grant least privilege access?</h3>
+            <h3>How aligned is the team culture with FinOps principles?</h3>
             <button onclick="showOptions('pillar2_q4')">Choose One</button>
             <select
               name="pillar2_q4"
@@ -281,16 +281,16 @@
               onchange="enableNextButton('pillar2_indicator', 'pillar2_q4','2',value)"
             >
               <option value="choose">Choose an option</option>
-              <option value="0">No least privileges</option>
-              <option value="1">Unrestricted Access</option>
-              <option value="2">Role-Based Access</option>
-              <option value="3">Group-Based Access</option>
-              <option value="4">Attribute-Based Access Control (ABAC)</option>
-              <option value="5">Policy-Based and Dynamic Access Control</option>
+              <option value="0">No </option>                                                        #changes
+              <option value="1">There is no alignment with FinOps principles</option>
+              <option value="2">Some elements of FinOps are acknowledged</option>
+              <option value="3">Basic alignment exists, but gaps are noticeable</option>
+              <option value="4">Most teams align with FinOps practices</option>
+              <option value="5">FinOps principles are integral to the organizational culture</option>
             </select>
           </div>
           <div class="question" id="pillar2_q5">
-            <h3>Question 5</h3>
+            <h3>Do employees responsible for provisioning cloud services understand the pricing framework of these resources?</h3>
             <button onclick="showOptions('pillar2_q5')">Choose One</button>
             <select
               name="pillar2_q5"
@@ -300,11 +300,11 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">No Clear Security Measures</option>
-              <option value="2">Basic Access Control</option>
-              <option value="3">Role-Based Access Control (RBAC)</option>
-              <option value="4">Strong Authentication and Authorization</option>
-              <option value="5">Zero Trust Architecture</option>
+              <option value="1">No understanding of pricing framework</option>
+              <option value="2">Some employees have limited awareness</option>
+              <option value="3">Basic understanding among provisioning engineers</option>
+              <option value="4">Most engineers are well-versed in pricing</option>
+              <option value="5">All employees confidently understand and apply pricing</option>
             </select>
           </div>
   
@@ -320,9 +320,9 @@
   
         <!--Pillar 3 -->
         <div class="pillar" id="pillar3" style="display: none">
-          <h2>Pillar 3: Sustainability        </h2>
+          <h2>Pillar 3: Operational Excellence        </h2>
           <div class="question" id="pillar3_q1">
-            <h3>How do you choose Region based on both business requirements and sustainability goals?</h3>
+            <h3>How efficient are your FinOps Process?</h3>
             <button onclick="showOptions('pillar3_q1')">Choose One</button>
             <select
               name="pillar3_q1"
@@ -332,16 +332,16 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Nearest Region</option>
-              <option value="2">Cost and Latency</option>
-              <option value="3">Cost-Benefit Analysis</option>
-              <option value="4">Cloud Provider Tools</option>
-              <option value="5">Comprehensive Strategy</option>
+              <option value="1">Processes are largely manual and inefficient</option>
+              <option value="2">Some efficiency improvements have been made</option>
+              <option value="3">Basic processes are standardized but not optimized</option>
+              <option value="4">Processes are regularly reviewed for efficiency</option>
+              <option value="5">Continuous improvement practices are embedded in processes</option>
             </select>
           </div>
   
           <div class="question" id="pillar3_q2">
-            <h3>How do you scale workload infrastructure dynamically?</h3>
+            <h3>How clearly defined are FinOps roles ?</h3>
             <button onclick="showOptions('pillar3_q2')">Choose One</button>
             <select
               name="pillar3_q2"
@@ -351,15 +351,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Manual Scaling</option>
-              <option value="2">Scheduled Scaling</option>
-              <option value="3">Reactive Auto-Scaling</option>
-              <option value="4">Predictive Auto-Scaling</option>
-              <option value="5">Event-Driven Auto-Scaling</option>
+              <option value="1">Roles are vague and poorly defined</option>
+              <option value="2">Basic roles exist but lack clarity</option>
+              <option value="3">Roles are defined but not consistently followed</option>
+              <option value="4">Clearly defined roles are documented and communicated</option>
+              <option value="5">Roles are continuously assessed for alignment with goals</option>
             </select>
           </div>
           <div class="question" id="pillar3_q3">
-            <h3>How do you optimize team member resources for activities performed?</h3>
+            <h3>How are FinOps performance metrics tracked?</h3>
             <button onclick="showOptions('pillar3_q3')">Choose One</button>
             <select
               name="pillar3_q3"
@@ -369,15 +369,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Ad Hoc Assignments</option>
-              <option value="2">Resource Tracking</option>
-              <option value="3">Resource Management Tools</option>
-              <option value="4">Resource Optimization and Sustainability Consideration</option>
-              <option value="5">Sustainable DevOps Culture</option>
+              <option value="1">No metrics are tracked</option>
+              <option value="2">Basic metrics are tracked but lack depth</option>
+              <option value="3">Key metrics are monitored with periodic reviews</option>
+              <option value="4">Comprehensive metrics are tracked and analysed regularly</option>
+              <option value="5">Continuous monitoring drives operational decision-making</option>
             </select>
           </div>
           <div class="question" id="pillar3_q4">
-            <h3>How do you optimize software and architecture for asynchronous and scheduled jobs?</h3>
+            <h3>Is cost management under FinOps integrated into the designated staff's job responsibilities and performance assessments ?</h3>
             <button onclick="showOptions('pillar3_q4')">Choose One</button>
             <select
               name="pillar3_q4"
@@ -387,15 +387,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Ad Hoc Execution</option>
-              <option value="2">Basic Scheduling</option>
-              <option value="3">Queue-Based System</option>
-              <option value="4">Task Orchestration and Prioritization</option>
-              <option value="5">Event-Driven Microservices</option>
+              <option value="1">Cost management is not part of any role</option>
+              <option value="2">Some awareness, but not formally included in responsibilities</option>
+              <option value="3">Managing cloud costs is recognized but inconsistently enforced</option>
+              <option value="4">Responsibilities include cloud cost management, reflected in assessments</option>
+              <option value="5">Cost management is fully integrated into roles and evaluations for all involved staff</option>
             </select>
           </div>
           <div class="question" id="pillar3_q5">
-            <h3>How do you optimize impact on devices and equipment?</h3>
+            <h3>Does the organization have formal documentation and KPIs for cloud cost management?</h3>
             <button onclick="showOptions('pillar3_q5')">Choose One</button>
             <select
               name="pillar3_q5"
@@ -405,11 +405,11 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">No Optimization</option>
-              <option value="2">Basic Awareness</option>
-              <option value="3">Resource Monitoring and Reporting</option>
-              <option value="4">Resource Efficiency Strategies</option>
-              <option value="5">Sustainable Infrastructure Practices</option>
+              <option value="1">No formal documentation or KPIs established</option>
+              <option value="2">Some documentation exists, but KPIs are not defined</option>
+              <option value="3">Documentation in place, with basic KPIs identified</option>
+              <option value="4">Comprehensive documentation and established KPIs for performance</option>
+              <option value="5">Robust documentation, clear KPIs, and regular evaluations to drive performance</option>
             </select>
           </div>
   
@@ -424,9 +424,9 @@
   
         <!-- pillar 4 -->
         <div class="pillar" id="pillar4" style="display: none">
-          <h2>Pillar 4 : Cost Optmization        </h2>
+          <h2>Pillar 4 : Financial Management         </h2>
           <div class="question" id="pillar4_q1">
-            <h3>How do you implement cloud financial management?</h3>
+            <h3>How effective is your budgeting process?</h3>
             <button onclick="showOptions('pillar4_q1')">Choose One</button>
             <select
               name="pillar4_q1"
@@ -436,16 +436,16 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Reactive Monitoring (Cost Tracking)</option>
-              <option value="2">Basic Cost Allocation and Budgeting</option>
-              <option value="3">Automation and Optimization</option>
-              <option value="4">Continuous Optimization</option>
-              <option value="5">FinOps and Cloud Governance</option>
+              <option value="1">The budgeting process is manual and unstructured</option>
+              <option value="2">Some structure exists, but it's inconsistently followed</option>
+              <option value="3">Budgeting involves basic inputs but lacks detail</option>
+              <option value="4">A structured budgeting process with regular reviews is in place</option>
+              <option value="5">Budgeting is automated and continuously refined</option>
             </select>
           </div>
   
           <div class="question" id="pillar4_q2">
-            <h3>Could you explain how you establish and manage cloud budgets and forecasts for your architecture's cloud resources?</h3>
+            <h3>How accurate are your financial forecasts?</h3>
             <button onclick="showOptions('pillar4_q2')">Choose One</button>
             <select
               name="pillar4_q2"
@@ -455,15 +455,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Minimal Budgeting</option>
-              <option value="2">Basic Budgeting</option>
-              <option value="3">Moderate Budgeting</option>
-              <option value="4">Advanced Budgeting</option>
-              <option value="5">Best Practice Budgeting</option>
+              <option value="1">Forecasts are rarely accurate</option>
+              <option value="2">Basic forecasts are made but lack historical context</option>
+              <option value="3">Some forecasting is accurate based on past data</option>
+              <option value="4">Regular reviews improve forecast accuracy significantly</option>
+              <option value="5">Forecasting processes are automated with real-time adjustments</option>
             </select>
           </div>
           <div class="question" id="pillar4_q3">
-            <h3>What proactive measures do you take to monitor and control costs in your cloud infrastructure or services?</h3>
+            <h3>How effectively are costs allocated within the organization?</h3>
             <button onclick="showOptions('pillar4_q3')">Choose One</button>
             <select
               name="pillar4_q3"
@@ -473,15 +473,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Manual Cost Tracking</option>
-              <option value="2">Basic Cost Alerts</option>
-              <option value="3">Resource Tagging</option>
-              <option value="4">Automation and Policy-Based Controls</option>
-              <option value="5">Cost Optimization Framework</option>
+              <option value="1">No cost allocation practices exist</option>
+              <option value="2">Basic allocation occurs but lacks transparency</option>
+              <option value="3">Allocation practices are documented but not regularly reviewed</option>
+              <option value="4">Clear and consistent allocation practices are followed</option>
+              <option value="5">Cost allocation is fully automated and transparent</option>
             </select>
           </div>
           <div class="question" id="pillar4_q4">
-            <h3>Can you quantify and measure the business value gained from your cost optimization initiatives?</h3>
+            <h3>How effective are your financial reports?</h3>
             <button onclick="showOptions('pillar4_q4')">Choose One</button>
             <select
               name="pillar4_q4"
@@ -491,15 +491,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Ad Hoc Tracking</option>
-              <option value="2">Basic Cost Metrics</option>
-              <option value="3">Cost Attribution</option>
-              <option value="4">ROI Calculation</option>
-              <option value="5">Continuous Improvement & Forecasting</option>
+              <option value="1">Reports are rarely generated or used</option>
+              <option value="2">Basic reports are created but lack insights</option>
+              <option value="3">Reports are generated regularly with some useful data</option>
+              <option value="4">Comprehensive reports provide valuable insights for decision-making</option>
+              <option value="5">Real-time, interactive dashboards are used for reporting</option>
             </select>
           </div>
           <div class="question" id="pillar4_q5">
-            <h3>Do you implement specific goals and targets for your application, and if so, how are they established and tracked?</h3>
+            <h3>How are investment strategies managed?</h3>
             <button onclick="showOptions('pillar4_q5')">Choose One</button>
             <select
               name="pillar4_q5"
@@ -509,11 +509,11 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">No formalized goals or tracking</option>
-              <option value="2">High-level non-specific objectives</option>
-              <option value="3">Specific measurable and time-bound goals</option>
-              <option value="4">Monitoring KPIs and regular reporting</option>
-              <option value="5">Real-time monitoring and automation for goals</option>
+              <option value="1">No clear investment strategies are defined</option>
+              <option value="2">Basic strategies exist but lack alignment with goals</option>
+              <option value="3">Some investment strategies are communicated</option>
+              <option value="4">Regular reviews ensure alignment with financial objectives</option>
+              <option value="5">Investment strategies are actively managed with clear metrics</option>
             </select>
           </div>
   
@@ -527,9 +527,9 @@
   
         <!-- pillar 5 -->
         <div class="pillar" id="pillar5" style="display: none">
-          <h2>Pillar 5 : Realiability        </h2>
+          <h2>Pillar 5 : Cost Optimization        </h2>
           <div class="question" id="pillar5_q1">
-            <h3>How do you design your architecture to accommodate fixed service quotas and constraints effectively?</h3>
+            <h3>How aware are teams of their costs?</h3>
             <button onclick="showOptions('pillar5_q1')">Choose One</button>
             <select
               name="pillar5_q1"
@@ -539,16 +539,16 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Basic Monitoring</option>
-              <option value="2">Quota Awareness</option>
-              <option value="3">Resource Management</option>
-              <option value="4">Quota Prediction and Optimization</option>
-              <option value="5">Quota Governance and Automation</option>
+              <option value="1">There is no awareness of costs at the team level</option>
+              <option value="2">Some teams are aware of their basic costs</option>
+              <option value="3">Cost awareness is promoted but not consistently practiced</option>
+              <option value="4">Most teams actively monitor and manage costs</option>
+              <option value="5">A strong culture of cost consciousness exists organization-wide</option>
             </select>
           </div>
   
           <div class="question" id="pillar5_q2">
-            <h3>What tools or processes do you use to monitor and actively manage service quotas to prevent resource constraints?</h3>
+            <h3>What tools are used for cost management?</h3>
             <button onclick="showOptions('pillar5_q2')">Choose One</button>
             <select
               name="pillar5_q2"
@@ -558,15 +558,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Manual Monitoring</option>
-              <option value="2">Basic Threshold Alarms</option>
-              <option value="3">Quota Tracking and Notifications</option>
-              <option value="4">Auto-scaling and Dynamic Quota Adjustment</option>
-              <option value="5">Policy-Driven Quota Management</option>
+              <option value="1">No tools are used for managing costs</option>
+              <option value="2">Basic spreadsheets are used for tracking</option>
+              <option value="3">Some tools are utilized but lack integration</option>
+              <option value="4">Advanced tools are used for cost tracking and analysis</option>
+              <option value="5">Cost management tools are fully integrated and automated</option>
             </select>
           </div>
           <div class="question" id="pillar5_q3">
-            <h3>How do you plan your network topology?</h3>
+            <h3>How proactive is your organization in optimizing costs?</h3>
             <button onclick="showOptions('pillar5_q3')">Choose One</button>
             <select
               name="pillar5_q3"
@@ -576,15 +576,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">No formal planning</option>
-              <option value="2">Basic Diagrams</option>
-              <option value="3">Reactive Planning</option>
-              <option value="4">Proactive Planning</option>
-              <option value="5">Continuous Improvement and Automation</option>
+              <option value="1">There are no strategies in place for cost optimization</option>
+              <option value="2">Basic strategies are identified but not acted upon</option>
+              <option value="3">Some strategies are implemented but lack monitoring</option>
+              <option value="4">Regular reviews drive ongoing cost optimization efforts</option>
+              <option value="5">Cost optimization is embedded in the decision-making process</option>
             </select>
           </div>
           <div class="question" id="pillar5_q4">
-            <h3>Could you describe the process of provisioning redundant connectivity between private networks in your cloud environment and on-premises infrastructure?</h3>
+            <h3>How effectively is resource wastage identified and addressed?</h3>
             <button onclick="showOptions('pillar5_q4')">Choose One</button>
             <select
               name="pillar5_q4"
@@ -594,15 +594,15 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Single network connection with no redundancy</option>
-              <option value="2">Basic Redundancy</option>
-              <option value="3">Improved Redundancy</option>
-              <option value="4">High Availability</option>
-              <option value="5">Fully automated highly redundant and resilient network</option>
+              <option value="1">No mechanisms are in place to identify wastage</option>
+              <option value="2">Basic identification occurs but is not acted upon</option>
+              <option value="3">Some wastage is identified and addressed</option>
+              <option value="4">Regular reviews lead to proactive wastage management</option>
+              <option value="5">Automated systems continuously identify and flag wastage</option>
             </select>
           </div>
           <div class="question" id="pillar5_q5">
-            <h3>How do you design your workload service architecture?</h3>
+            <h3>How effectively are vendor costs managed?</h3>
             <button onclick="showOptions('pillar5_q5')">Choose One</button>
             <select
               name="pillar5_q5"
@@ -612,11 +612,11 @@
             >
               <option value="choose">Choose an option</option>
               <option value="0">No</option>
-              <option value="1">Retrieving data. Wait a few seconds and try to cut or copy again.</option>
-              <option value="2">Basic Microservices</option>
-              <option value="3">Containerization and Orchestration</option>
-              <option value="4">Serverless or Function as a Service (FaaS)</option>
-              <option value="5">Event-Driven Scalable and Resilient Microservices</option>
+              <option value="1">No vendor management practices exist.</option>
+              <option value="2">Basic management occurs but lacks oversight</option>
+              <option value="3">Vendor costs are monitored but not optimized</option>
+              <option value="4">Regular reviews ensure vendor costs align with budget</option>
+              <option value="5">Vendor management is fully optimized with regular negotiations</option>
             </select>
           </div>
   
@@ -628,109 +628,7 @@
           </div>
         </div>
   
-        <!-- pillar 6 -->
-        <div class="pillar" id="pillar6" style="display: none">
-          <h2>Pillar 6 : Performance Efficiency</h2>
-          <div class="question" id="pillar6_q1">
-            <h3>How do you select the best-performing architecture?</h3>
-            <button onclick="showOptions('pillar6_q1')">Choose One</button>
-            <select
-              name="pillar6_q1"
-              id="pillar6_q1_select"
-              style="display: none"
-              onchange="enableNextButton('pillar6_indicator', 'pillar6_q1','6',value)"
-            >
-              <option value="choose">Choose an option</option>
-              <option value="0">No</option>
-              <option value="1">Ad Hoc Decision</option>
-              <option value="2">Reactive Decision</option>
-              <option value="3">Data-Driven Decision</option>
-              <option value="4">Predictive Optimization</option>
-              <option value="5">Continuous Improvement and Optimization</option>
-            </select>
-          </div>
-  
-          <div class="question" id="pillar6_q2">
-            <h3>How can you factor cost requirements into decisions?</h3>
-            <button onclick="showOptions('pillar6_q2')">Choose One</button>
-            <select
-              name="pillar6_q2"
-              id="pillar6_q2_select"
-              style="display: none"
-              onchange="enableNextButton('pillar6_indicator', 'pillar6_q2','6',value)"
-            >
-              <option value="choose">Choose an option</option>
-              <option value="0">No</option>
-              <option value="1">No Consideration of Cost</option>
-              <option value="2">Afterthought Cost Assessment</option>
-              <option value="3">Early Cost Consideration</option>
-              <option value="4">Integrated Cost Management</option>
-              <option value="5">Automated Cost Optimization</option>
-            </select>
-          </div>
-          <div class="question" id="pillar6_q3">
-            <h3>How do you Evaluate the available compute options?</h3>
-            <button onclick="showOptions('pillar6_q3')">Choose One</button>
-            <select
-              name="pillar6_q3"
-              id="pillar6_q3_select"
-              style="display: none"
-              onchange="enableNextButton('pillar6_indicator', 'pillar6_q3','6',value)"
-            >
-              <option value="choose">Choose an option</option>
-              <option value="0">No</option>
-              <option value="1">Basic Understanding</option>
-              <option value="2">Awareness of Containers</option>
-              <option value="3">Practical VM and Container Usage</option>
-              <option value="4">Multi-Cloud and Serverless Exploration</option>
-              <option value="5">Workload-Centric Optimization</option>
-            </select>
-          </div>
-          <div class="question" id="pillar6_q4">
-            <h3>How do you continually evaluate compute needs based on metrics?</h3>
-            <button onclick="showOptions('pillar6_q4')">Choose One</button>
-            <select
-              name="pillar6_q4"
-              id="pillar6_q4_select"
-              style="display: none"style="display: none"
-              onchange="enableNextButton('pillar6_indicator', 'pillar6_q4','6',value)"
-            >
-              <option value="choose">Choose an option</option>
-              <option value="0">No</option>
-              <option value="1">Reactive Evaluation</option>
-              <option value="2">Scheduled Evaluation</option>
-              <option value="3">Metric-Driven Scaling</option>
-              <option value="4">Predictive Analytics</option>
-              <option value="5">Continuous Optimization</option>
-            </select>
-          </div>
-          <div class="question" id="pillar6_q5">
-            <h3>How do you make decisions based on access patterns and metrics?</h3>
-            <button onclick="showOptions('pillar6_q5')">Choose One</button>
-            <select
-              name="pillar6_q5"
-              id="pillar6_q5_select"
-              style="display: none"
-              onchange="enableNextButton('pillar6_indicator', 'pillar6_q5','6',value)"
-            >
-              <option value="choose">Choose an option</option>
-              <option value="0">No</option>
-              <option value="1">Reactive Decision-making</option>
-              <option value="2">Basic Monitoring</option>
-              <option value="3">Data-Driven Decision-making</option>
-              <option value="4">Automation and Optimization</option>
-              <option value="5">Predictive and Proactive Optimization</option>
-            </select>
-          </div>
-  
-          <!-- Add more questions for Pillar 1 -->
-          <!-- Repeat this structure for Questions 2 to 5 in Pillar 1 -->
-          <!-- Add pillar indicator -->
-          <div class="pillar-indicator">
-            <span id="pillar6_indicator" style="font-size: 25px;font-weight: 700;">0</span><span style="font-size: 25px;font-weight: 700;">/5</span>
-          </div>
-        </div>
-  
+        
         <button onclick="showNextPillar()" id="nextButton" disabled>
           Next Pillar
         </button>
